@@ -217,6 +217,7 @@ def build_sudoku():
 	print('Lets build a full sudoku grid !')
 
 	success = False
+	x = 0
 
 	while not success:
 		sudoku_grid = [[0 for _ in range(9)] for _ in range(9)] # empty grid
